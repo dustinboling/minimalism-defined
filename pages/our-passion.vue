@@ -1,49 +1,78 @@
 <template>
   <main>
-    <section class="container mx-auto mb-20">
-        <div class=" flex items-center rounded-sm" style="background-color:#e8e8e8">
-            <div class="flex-1" style="background-size:cover;min-height:609px;background:#e8e8e8 url('https://static1.squarespace.com/static/57720d02725e25bae63ac3f3/t/5b3c2f921ae6cf89ccfca3b8/1533959811785/squarespace-designer.jpg?format=1500w')">
-            </div>
-            <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest">
-                <h1 class="text-xl mb-6">Our Passion</h1>
-                <h3 class="text-sm mb-16">That will clearly express your style<br>&amp; communicate your message</h3>
-                <nuxt-link class="px-5 py-2 text-xs text-white bg-black rounded-sm focus:outline-none focus:shadow-outline" to="/contact-us">Spark up a conversation</nuxt-link>
-            </div>
+    <section class="container">
+      <div class="section-inner flex flex-col items-center px-6">
+        <div class="flex flex-col items-center text-center uppercase tracking-widest py-20">
+          <h1 class="text-xl mb-4">Our Passion</h1>
+          <h3 class="text-sm">simplify the complex</h3>
         </div>
+        <img src="/img/ipad-peek-bottom.png" alt="Our Passion is Simple and Clean Design">
+      </div>
     </section>
 
-    <section class="container mx-auto mb-20">
-        <div class="flex flex-row-reverse items-center rounded-sm" style="background-color:#e8e8e8">
-            <div class="flex-1" style="background-size:cover;min-height:609px;background:right #e8e8e8 url('https://static1.squarespace.com/static/57720d02725e25bae63ac3f3/t/5bfa258803ce64e76c230d17/1543120271790/architect-web-design-and-branding.jpg?format=1500w')">
+    <hr class="section-separator">
 
-            </div>
-            <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest">
-                <h1 class="text-xl mb-6">Conserve Cognitive Energy</h1>
-                <h3 class="text-sm mb-16">Treat your visitors<br>to simplicity &amp; clarity</h3>
-                <nuxt-link class="px-5 py-2 text-xs text-white bg-black rounded-sm focus:outline-none focus:shadow-outline" to="/our-passion">This is Our Passion</nuxt-link>
-            </div>
+    <!-- Container -->
+    <section class="container px-2">
+      <!-- Row -->
+      <div class="flex -mx-2">
+        <!-- Column -->
+        <div class="column w-1/2 px-2 flex items-center">
+          <div
+            class="flex-1 h-full flex flex-col justify-center text-center uppercase tracking-widest px-6 py-20 md:rounded-l"
+            style="background-color:#e8e8e8;"
+          >
+            <h1 class="text-xl mb-20">Your Work is Beautiful</h1>
+            <h3 class="text-sm">
+              Let its quality shine through
+              <br>with a simple website design
+            </h3>
+          </div>
         </div>
-    </section>
 
-    <section class="container mx-auto mb-20">
-        <div class=" flex items-center py-10 rounded-sm" style="background-color:#e8e8e8">
-            <div class="flex-1 rounded rounded-l-none shadow" style="background-size:cover;min-height:533px;background:right #e8e8e8 url(https://envato-shoebox-0.imgix.net/d2e7/1d3c-b3e2-415a-97f9-f043c0bd025d/DSC06661.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=800&s=074139979a7db7d1c05bdaea3a1c0f04)">
+        <!-- Column with images -->
+        <div class="column w-1/2 px-2">
+          <div class="flex flex-wrap -mx-2">
+            <div class="w-full lg:w-1/2 px-2 mb-4">
+              <img
+                class="w-full"
+                src="img/interior-design-01.png"
+                alt="Website design for interior designers"
+              >
             </div>
-            <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest">
-                <h1 class="text-xl mb-6">Enjoy the Experience</h1>
-                <h3 class="text-sm mb-16">We promise to always treat you with<br>kindness &amp; professionalism</h3>
-                <nuxt-link class="px-5 py-2 text-xs text-white bg-black rounded-sm focus:outline-none focus:shadow-outline" to="/our-process">Our Process is Delightful</nuxt-link>
+            <div class="w-full lg:w-1/2 px-2 mb-4">
+              <img
+                class="w-full"
+                src="img/interior-design-02.png"
+                alt="Website design for interior designers"
+              >
             </div>
+            <div class="w-full lg:w-1/2 px-2 mb-4 lg:mb-0">
+              <img
+                class="w-full"
+                src="img/interior-design-03.png"
+                alt="Website design for interior designers"
+              >
+            </div>
+            <div class="w-full lg:w-1/2 px-2">
+              <img
+                class="w-full"
+                src="img/interior-design-04.png"
+                alt="Website design for interior designers"
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-</main>
+  </main>
 </template>
 
 <script>
-
+export default {};
 </script>
 
-<style>
+<style lang="scss">
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;

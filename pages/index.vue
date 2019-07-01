@@ -1,46 +1,95 @@
 <template>
   <main>
     <section class="container">
-        <div class="flex items-center rounded-sm" style="background-color:#e8e8e8">
-            <div class="flex-1" style="background-size:cover;min-height:609px;background:#e8e8e8 url('https://static1.squarespace.com/static/57720d02725e25bae63ac3f3/t/5b3c2f921ae6cf89ccfca3b8/1533959811785/squarespace-designer.jpg?format=1500w')">
-            </div>
-            <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest">
-                <h1 class="text-xl mb-6">Beautifully Simple Websites</h1>
-                <h3 class="text-sm mb-16">That will clearly express your style<br>&amp; communicate your message</h3>
-                <nuxt-link class="btn btn-black focus:outline-none focus:shadow-outline" to="/contact-us">Spark up a conversation</nuxt-link>
-            </div>
+      <div class="section-inner flex flex-col-reverse md:flex-row items-center">
+        <div class="img-wrap flex-1">
+          <img
+            src="/img/ipad-pro-13-landscape-flynn-architect.png"
+            alt="Beautifully Simple Websites"
+          >
         </div>
+        <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest py-16">
+          <h1 class="text-xl mb-6">Beautifully Simple Websites</h1>
+          <h3 class="text-sm mb-16">
+            That will clearly express your style
+            <br>&amp; communicate your message
+          </h3>
+          <nuxt-link
+            class="btn btn-black focus:outline-none focus:shadow-outline"
+            to="/contact-us"
+          >Spark up a conversation</nuxt-link>
+        </div>
+      </div>
     </section>
+
+    <hr class="section-separator">
 
     <section class="container">
-        <div class="flex flex-row-reverse items-center rounded-sm" style="background-color:#e8e8e8">
-            <div class="flex-1" style="background-size:cover;min-height:609px;background:right #e8e8e8 url('https://static1.squarespace.com/static/57720d02725e25bae63ac3f3/t/5bfa258803ce64e76c230d17/1543120271790/architect-web-design-and-branding.jpg?format=1500w')">
-
-            </div>
-            <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest">
-                <h1 class="text-xl mb-6">Conserve Cognitive Energy</h1>
-                <h3 class="text-sm mb-16">Treat your visitors<br>to simplicity &amp; clarity</h3>
-                <nuxt-link class="btn btn-black focus:outline-none focus:shadow-outline" to="/our-passion">This is Our Passion</nuxt-link>
-            </div>
-        </div>
+      <div class="text-center px-6 md:px-0">
+        <h3
+          class="text-xl uppercase font-light tracking-widest mb-1"
+        >Let Your Work Speak for itself through a Minimalist Website Design</h3>
+        <p>Get a simple, clean &amp; minimal website so you can show your work beautifully and attract the right kind of clients.</p>
+      </div>
     </section>
+
+    <hr class="section-separator">
 
     <section class="container">
-        <div class="flex items-center py-10 rounded-sm" style="background-color:#e8e8e8">
-            <div class="flex-1 rounded rounded-l-none shadow" style="background-size:cover;min-height:533px;background:right #e8e8e8 url(https://envato-shoebox-0.imgix.net/d2e7/1d3c-b3e2-415a-97f9-f043c0bd025d/DSC06661.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=800&s=074139979a7db7d1c05bdaea3a1c0f04)">
-            </div>
-            <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest">
-                <h1 class="text-xl mb-6">Enjoy the Experience</h1>
-                <h3 class="text-sm mb-16">We promise to always treat you with<br>kindness &amp; professionalism</h3>
-                <nuxt-link class="btn btn-black focus:outline-none focus:shadow-outline" to="/our-process">Our Process is Delightful</nuxt-link>
-            </div>
+      <div class="section-inner flex flex-col-reverse md:flex-row-reverse items-center">
+        <div class="img-wrap flex-1">
+          <img src="/img/macbookair-flynn-architect.png" alt>
         </div>
+        <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest py-16">
+          <h1 class="text-xl mb-6">Conserve Cognitive Energy</h1>
+          <h3 class="text-sm mb-16">
+            Treat your visitors
+            <br>to simplicity &amp; clarity
+          </h3>
+          <nuxt-link
+            class="btn btn-black focus:outline-none focus:shadow-outline"
+            to="/our-passion"
+          >This is Our Passion</nuxt-link>
+        </div>
+      </div>
     </section>
-</main>
+
+    <hr class="section-separator">
+
+    <section class="container">
+      <div class="text-center text-lg px-6 md:px-0">
+        <p
+          class="font-light italic mb-3"
+        >&quot;I would highly recommend the Minimalism Defined team to anyone seeking assistance with web coding, maintenance, implementation, etc for their business. After having some very negative experiences with other providers, I've been consistently pleased &amp; highly satisfied with the work Minimalism Defined's team has completed for my e-commerce website. Always accessible, highly reliable. Completes projects with an eye towards long-term functionality, cost-savings, and efficiency for the client. Solves even headache projects/issues with a positive attitude. You can trust your website is in safe &amp; capable hands with Minimalism Defined!&quot;</p>
+        <p>– Kelsey M., founder of REJUVA® Brand</p>
+      </div>
+    </section>
+
+    <hr class="section-separator">
+
+    <section class="container">
+      <div class="section-inner flex flex-col-reverse md:flex-row items-center">
+        <div class="flex-1 pt-3">
+          <img src="/img/ipadpro13-portrait-silver-pgip.png" alt>
+        </div>
+        <div class="flex-1 flex flex-col items-center text-center uppercase tracking-widest py-16">
+          <h1 class="text-xl mb-6">Enjoy the Experience</h1>
+          <h3 class="text-sm mb-16">
+            We promise to always treat you with
+            <br>kindness &amp; professionalism
+          </h3>
+          <nuxt-link
+            class="btn btn-black focus:outline-none focus:shadow-outline"
+            to="/our-process"
+          >Our Process is Delightful</nuxt-link>
+        </div>
+      </div>
+    </section>
+  </main>
 </template>
 
 <script>
-
+export default {};
 </script>
 
 <style>
