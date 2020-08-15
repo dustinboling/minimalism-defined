@@ -1,23 +1,23 @@
 <template>
-  <div class="border-t-4 border-black">
-    <header class="border-t-8" style="border-color:#e8e8e8;">
-      <nav class="container mx-auto flex items-center justify-between flex-wrap py-12 px-6 md:px-0">
+  <div>
+    <header>
+      <nav class="container flex flex-wrap items-center justify-between px-6 py-12 mx-auto md:px-0">
         <div class="flex flex-col flex-shrink-0 mr-6">
-          <nuxt-link class="uppercase text-xl tracking-widest mb-0" to="/">
+          <nuxt-link class="mb-0 text-xl tracking-widest uppercase" to="/">
             Minimalism
             <span class="font-light">Defined</span>
           </nuxt-link>
           <p
-            class="text-xs uppercase tracking-widest text-gray-600"
+            class="text-xs tracking-widest text-gray-600 uppercase"
           >Custom website design &amp; development</p>
         </div>
 
         <div class="block lg:hidden">
           <button
-            class="flex items-center px-3 py-2 border rounded-sm text-gray-200 border-gray-400 hover:text-white hover:border-white"
+            class="flex items-center px-3 py-2 text-gray-200 border border-gray-400 rounded-sm hover:text-white hover:border-white"
           >
             <svg
-              class="fill-current h-3 w-3"
+              class="w-3 h-3 fill-current"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -27,22 +27,22 @@
           </button>
         </div>
 
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:justify-end lg:w-auto">
-          <div class="uppercase tracking-widest text-xs">
+        <div class="flex-grow block w-full lg:flex lg:items-center lg:justify-end lg:w-auto">
+          <div class="text-xs tracking-widest uppercase">
             <nuxt-link
               to="/our-passion"
-              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-500 mr-4"
+              class="block mt-4 mr-4 lg:inline-block lg:mt-0 hover:text-gray-500"
             >Our Passion</nuxt-link>
             <nuxt-link
               to="/our-process"
-              class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-500 mr-4"
+              class="block mt-4 mr-4 lg:inline-block lg:mt-0 hover:text-gray-500"
             >Our Process</nuxt-link>
           </div>
 
           <div>
             <nuxt-link
               to="/request-proposal"
-              class="btn btn-white hover:border-transparent hover:text-white hover:bg-black mt-4 lg:mt-0"
+              class="mt-4 btn btn-white hover:border-transparent hover:text-white hover:bg-black lg:mt-0"
             >Request a Proposal</nuxt-link>
           </div>
         </div>
@@ -54,10 +54,10 @@
 
     <aside class="container px-2">
       <div
-        class="flex items-center justify-between h-32 shadow rounded"
+        class="flex items-center justify-between h-32 rounded shadow"
         style="background-color:#e8e8e8;"
       >
-        <h3 class="mx-auto uppercase tracking-widest">How can we help you today?</h3>
+        <h3 class="mx-auto tracking-widest uppercase">How can we help you today?</h3>
         <nuxt-link
           class="mx-auto btn btn-white focus:outline-none focus:shadow-outline"
           to="/contact-us"
@@ -75,8 +75,8 @@
     </aside>
     <footer class="flex items-center justify-around py-12">
       <span
-        class="text-xs text-gray-400 uppercase tracking-widest"
-      >&copy;2019 Minimalism Defined. All rights reserved.</span>
+        class="text-xs tracking-widest text-gray-400 uppercase"
+      >&copy;2020 Minimalism Defined. All rights reserved.</span>
     </footer>
   </div>
 </template>
@@ -93,7 +93,7 @@ p {
 }
 hr.section-separator {
   border-color: #e8e8e8;
-  @apply w-1/6 mx-auto my-12 border-dashed border-2;
+  @apply w-1/6 mx-auto my-20 border-dashed border-2;
 }
 .container {
   @apply mx-auto;
@@ -104,7 +104,7 @@ section.container {
     @apply rounded shadow;
   }
   .img-wrap {
-    @apply py-3;
+    @apply py-20;
   }
 }
 .btn {
