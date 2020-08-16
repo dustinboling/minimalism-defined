@@ -108,7 +108,7 @@ section.container {
   }
 }
 .btn {
-  @apply inline-block uppercase tracking-widest text-xs px-5 py-3 leading-none text-xs rounded-sm;
+  @apply inline-block uppercase tracking-widest text-xs px-5 py-3 leading-none rounded-sm;
 }
 .btn-black {
   @apply text-white bg-black;
